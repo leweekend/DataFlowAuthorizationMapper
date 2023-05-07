@@ -1,0 +1,12 @@
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\bin\Debug\net7.0\DataFlowAuthorizationMapper.deps.json
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\bin\Debug\net7.0\DataFlowAuthorizationMapper.dll
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\bin\Debug\net7.0\DataFlowAuthorizationMapper.pdb
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.csproj.AssemblyReference.cache
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.AssemblyInfoInputs.cache
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.AssemblyInfo.cs
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.csproj.CoreCompileInputs.cache
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.dll
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\refint\DataFlowAuthorizationMapper.dll
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\DataFlowAuthorizationMapper.pdb
+C:\my-projects\DataFlowAuthorizationMapper\DataFlowAuthorizationMapper\obj\Debug\net7.0\ref\DataFlowAuthorizationMapper.dll
