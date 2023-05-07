@@ -9,7 +9,7 @@ Overall, DataFlowAuthorizationMapper helps ensure that only authorized data is p
 
 
 ```C#
-    internal class DomainModel
+    class DomainModel
     {
         [DataFlowAuthorize("admin,superuser")]
         public string FirstName { get; set; } = null!;
