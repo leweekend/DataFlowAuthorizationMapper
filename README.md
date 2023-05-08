@@ -1,4 +1,3 @@
-# DataFlowAuthorizationMapper
 An object to object mapper that applies role based authorization at the class property level
 
 DataFlowAuthorizationMapper is a utility class that maps one object to another while enforcing role-based authorization at the property level. It provides a way to control which properties of an object should be exposed based on the user's role by checking against the DataFlowAuthorizeAttribute set on each property.
