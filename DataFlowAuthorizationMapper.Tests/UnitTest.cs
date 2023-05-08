@@ -19,7 +19,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 30
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map<DomainModel, ViewModel>(roles, domainModel);
+            var viewModel = DataFlowAuthorization.Map<DomainModel, ViewModel>(roles, domainModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedFirstName, viewModel.FirstName);
@@ -42,7 +42,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 30
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map<DomainModel, ViewModel>(roles, domainModel);
+            var viewModel = DataFlowAuthorization.Map<DomainModel, ViewModel>(roles, domainModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedFirstName, viewModel.FirstName);
@@ -64,7 +64,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 30
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map<DomainModel, ViewModel>(roles, domainModel);
+            var viewModel = DataFlowAuthorization.Map<DomainModel, ViewModel>(roles, domainModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedAge, viewModel.Age);
@@ -93,7 +93,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 40
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map(roles, domainModel, persistentModel);
+            var viewModel = DataFlowAuthorization.Map(roles, domainModel, persistentModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedFirstName, viewModel.FirstName);
@@ -124,7 +124,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 40
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map(roles, domainModel, persistentModel);
+            var viewModel = DataFlowAuthorization.Map(roles, domainModel, persistentModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedFirstName, viewModel.FirstName);
@@ -155,7 +155,7 @@ namespace DataFlowAuthorizationMapper.Tests
                 Age = 40
             };
 
-            var viewModel = DataFlowAuthorizationMapper.Map(roles, domainModel, persistentModel);
+            var viewModel = DataFlowAuthorization.Map(roles, domainModel, persistentModel);
 
             Assert.NotNull(viewModel);
             Assert.Equal(expectedFirstName, viewModel.FirstName);

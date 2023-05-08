@@ -3,7 +3,7 @@ using DataFlowAuthorizationMapper.Attributes;
 
 namespace DataFlowAuthorizationMapper
 {
-    public static class DataFlowAuthorizationMapper
+    public static class DataFlowAuthorization
     {
         private static readonly Dictionary<(Type, Type), Dictionary<string, PropertyInfo>> PropertyMappings = new();
 
