@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
+      "projectUniqueName": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
       "projectName": "DataFlowAuthorizationMapper",
-      "projectPath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
+      "projectPath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
       "packagesPath": "C:\\Users\\thishen.naicker\\.nuget\\packages\\",
-      "outputPath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\obj\\",
+      "outputPath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

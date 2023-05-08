@@ -3,7 +3,8 @@
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class DataFlowAuthorizeAttribute : Attribute
     {
-        internal string[] Roles { get; set; }
+        internal readonly string[] Roles;
+
         public DataFlowAuthorizeAttribute(string roles)
         {
             Roles = roles.Split(',');

@@ -9,7 +9,7 @@ namespace DataFlowAuthorizationMapper
 
         public static U Map<T, U>(string[] roles, T source, U? destination = null) where T : class where U : class
         {
-            if (source == null)
+            if (source is null)
             {
                 throw new ArgumentNullException(nameof(source));
             }
@@ -22,7 +22,7 @@ namespace DataFlowAuthorizationMapper
             foreach (var sourceProperty in sourceProperties)
             {
                 var mapToAttr = sourceProperty.GetCustomAttribute<MapToAttribute>();
-                var fieldName = mapToAttr != null ? mapToAttr.SourcePropertyName : sourceProperty.Name;
+                var fieldName = mapToAttr is not null ? mapToAttr.PropertyName : sourceProperty.Name;
 
                 if (destinationProperties.TryGetValue(fieldName, out var destinationProperty) &&
                     IsAuthorized(sourceProperty, roles))
@@ -38,7 +38,7 @@ namespace DataFlowAuthorizationMapper
         private static bool IsAuthorized(PropertyInfo sourceProperty, string[] roles)
         {
             var customAttr = sourceProperty.GetCustomAttribute<DataFlowAuthorizeAttribute>();
-            return customAttr == null || customAttr.IsValid(roles);
+            return customAttr is null || customAttr.IsValid(roles);
         }
 
         private static Dictionary<string, PropertyInfo> GetDestinationProperties<T, U>()
@@ -48,7 +48,7 @@ namespace DataFlowAuthorizationMapper
             if (!PropertyMappings.TryGetValue(cacheKey, out var destinationProperties))
             {
                 destinationProperties = typeof(U).GetProperties(BindingFlags.Instance | BindingFlags.Public)
-                    .ToDictionary(p => p.GetCustomAttribute<MapToAttribute>()?.SourcePropertyName ?? p.Name, p => p);
+                    .ToDictionary(p => p.GetCustomAttribute<MapToAttribute>()?.PropertyName ?? p.Name, p => p);
 
                 PropertyMappings[cacheKey] = destinationProperties;
             }

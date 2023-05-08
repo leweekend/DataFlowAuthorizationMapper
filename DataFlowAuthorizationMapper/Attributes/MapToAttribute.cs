@@ -3,11 +3,11 @@
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
     public class MapToAttribute : Attribute
     {
-        internal string SourcePropertyName { get; set; }
+        internal string PropertyName { get; set; }
 
-        public MapToAttribute(string sourcePropertyName)
+        public MapToAttribute(string propertyName)
         {
-            SourcePropertyName = sourcePropertyName;
+            PropertyName = propertyName;
         }
     }
 }

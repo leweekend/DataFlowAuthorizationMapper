@@ -6136,11 +6136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
+      "projectUniqueName": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
       "projectName": "DataFlowAuthorizationMapper.Tests",
-      "projectPath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
+      "projectPath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
       "packagesPath": "C:\\Users\\thishen.naicker\\.nuget\\packages\\",
-      "outputPath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.Tests\\obj\\",
+      "outputPath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6161,8 +6161,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj": {
-              "projectPath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj"
+            "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj": {
+              "projectPath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj"
             }
           }
         }

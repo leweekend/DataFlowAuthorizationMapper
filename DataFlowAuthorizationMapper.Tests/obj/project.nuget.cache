@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7yerfWuchKORq0p6tGoFAW4Zi0/g0QEiR8ajSw45AresAOKnzbYS2bCkZaOREC9rwL7evBBQEfs4+Hd25xMTiw==",
+  "dgSpecHash": "u+K9xvV/XRuJQl69Sc9Tcaztr0CqH9AFi6ylvXlcXlAWBdRfYvbgPbhXI3D1UY1oa73SVQprUINvDYGtqMv3Og==",
   "success": true,
-  "projectFilePath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
+  "projectFilePath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper.Tests\\DataFlowAuthorizationMapper.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thishen.naicker\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\thishen.naicker\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

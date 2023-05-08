@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AtTAprmYrrf6VQ/YKo9AKhaxVkSXxVuuqfkBG7YNgW8B9k5CObxEi92qrEGW0WK3Op4FjfNmsRrVPVt89MPUPw==",
+  "dgSpecHash": "e3EMUq3oHlVyhJDOeZ2SMFrDZdVNpvaVf7sa+ktrNfwSPOP86+nlIhfHDgG1IlvAIUlFpjPbYdvIjDRp41ogXQ==",
   "success": true,
-  "projectFilePath": "C:\\my-projects\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
+  "projectFilePath": "C:\\my-projects\\data-flow-authorization-mapper\\DataFlowAuthorizationMapper\\DataFlowAuthorizationMapper.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
